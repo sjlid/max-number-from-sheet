@@ -1,0 +1,6 @@
+services:
+  app:
+    image: '53b4663deb6e2038034befda675a54dcaaeec4274ef01e1f939a4f22efff9c5f'
+    container_name: app
+    ports:
+      - '8080:8080'
